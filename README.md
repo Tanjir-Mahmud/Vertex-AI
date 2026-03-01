@@ -1,4 +1,4 @@
-# VERITAS AI — Multi-Modal Digital Trust & Deepfake Detection Dashboard
+# Vertex-AI — Multi-Modal Digital Trust & Deepfake Detection Dashboard
 
 VERITAS AI is a comprehensive, production-ready dashboard designed to combat misinformation and synthetic media. It provides a real-time, multi-modal "Truth Scanner" that analyzes text claims, URLs, and images to determine their authenticity.
 

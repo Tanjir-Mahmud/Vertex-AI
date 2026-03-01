@@ -88,7 +88,7 @@ async function analyzeText(input: string, webContext: string) {
 
     const ai = new GoogleGenAI({ apiKey });
 
-    const systemPrompt = `You are a forensic analyst specializing in multi-modal digital forgery and misinformation detection. Analyze the provided text against the web search context. Evaluate factual accuracy, detect potential misinformation, and assess AI-generated text likelihood.
+    const systemPrompt = `You are a forensic analyst specializing in multi-modal digital forgery and misinformation detection. Analyze the provided text against the web search context. If the web search context is unavailable or unhelpful, rely on your own vast internal knowledge base to evaluate the claim's factual, scientific, or historical accuracy.
 
 Output strictly in JSON configuration (no markdown, no code fences):
 {
@@ -100,7 +100,7 @@ Output strictly in JSON configuration (no markdown, no code fences):
 }
 
 Scoring guide:
-- 80-100: Well-supported by multiple credible sources
+- 80-100: Well-supported by multiple credible sources or established facts
 - 50-79: Partially supported, some claims unverifiable
 - 20-49: Contradicted by sources or contains misleading claims
 - 0-19: Clearly false or fabricated information`;

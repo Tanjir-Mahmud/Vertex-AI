@@ -2,7 +2,7 @@
 
 VERITAS AI is a comprehensive, production-ready dashboard designed to combat misinformation and synthetic media. It provides a real-time, multi-modal "Truth Scanner" that analyzes text claims, URLs, and images to determine their authenticity.
 
-![VERITAS AI Dashboard](docs/assets/dashboard-preview.png) *(Preview placeholder)*
+
 
 ## Features
 
